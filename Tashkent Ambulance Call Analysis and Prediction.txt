@@ -1,0 +1,78 @@
+﻿Tashkent Ambulance Call Analysis and Prediction
+1. Course & Team Details
+* Course Name: AI
+* Team Name: FARHOD
+
+
+Team Members:
+* Leader: XASAN OTAJONOV | ID: 202390249 | Group: E40A
+* Second Leader / Programmer: NAZAROV NAZARBEK | ID: 202390230 | Group: E40A
+* Programmer: ABDULAZIZ AXMADJONOV | ID: 202390245 | Group: E40A
+* Programmer: ABDULLAEV FARKHOD | ID: 202390250 | Group: E40B
+
+
+2. Project Overview
+* Project Title: Tashkent Ambulance Call Analysis and Prediction
+* Selected Field: Option B — Data Analysis & Prediction (Polynomial Regression)
+
+
+Dataset Details:
+* Dataset Title: Monthly Ambulance Calls by Age Category and District in Tashkent City
+* Data Source: Open Data Portal of Uzbekistan (data.gov.uz)
+* Dataset Size: 510 rows × 17 columns
+* Selection Reason: Fulfills the project requirement for localized Uzbekistan web data and supports multi-variable demographic analysis alongside non-linear regression modeling.
+
+
+3. Objectives & Expected Outcomes
+Objectives:
+1. Demographic Breakdown: Identify which age demographics generate the highest volume of emergency medical requests.
+2. Geographic Distribution: Pinpoint high-demand districts across Tashkent city for emergency dispatch optimization.
+3. Trend Forecasting: Fit a 2nd-degree Polynomial Regression model to forecast monthly call trajectories and account for seasonal shifts.
+
+
+Expected Outcomes:
+1. Predictive Model: A working 2nd-degree Polynomial Regression model () trained to predict overall call volume in Tashkent.
+2. Visual Analytics: Interactive line plots and scatter charts showing monthly call distributions and projected workload trends.
+3. Resource Insights: Actionable data findings to help healthcare authorities allocate medical personnel and ambulance fleets effectively across Tashkent districts.
+
+
+6. Project Timeline
+
+
+Milestone / Week
+	Planned Activity
+	Deliverables
+	Week 1 (Oct  05 – Oct 7)
+	Topic selection & dataset retrieval
+	GitHub proposal creation
+
+
+	Week 2 (Oct 14 – Oct 15)
+	Data cleaning & feature setup
+	Prepared DataFrame in Pandas
+	Week 3 (Oct 16 – Oct 17)
+	Exploratory analysis & visualization
+	Aggregations & chart plots
+	Week 4 (Oct 18 – Oct 19)
+	Project Presentations
+	Report & presentation deck
+
+
+	Final Presentations
+	Submitting Final Report and Presentation Deck
+	October 21, 2026
+
+
+
+
+	
+
+7. Expected Outcomes & Skills
+   * Expertise in handling real-world structured datasets using Python (pandas, numpy, matplotlib).
+   * Practical understanding of non-linear machine learning models and coefficient interpretation ().
+
+
+8. References
+      1. Open Data Portal of Uzbekistan (data.gov.uz).
+      2. NumPy & Pandas Documentation (numpy.org, pandas.pydata.org).
+      3. GitHub Repository: https://github.com/Nonamechick/Tashkent-Ambulance-Call-Analysis-and-Prediction
