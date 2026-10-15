@@ -1,0 +1,43 @@
+# 📐 Polynomial Regression Model Explanation
+
+Polynomial Regression is a supervised machine learning algorithm applied when the relationship between the independent variable (**Time Index in months**, $x$) and the dependent variable (**Total Ambulance Calls**, $y$) follows a non-linear or curved trend[cite: 1].
+
+---
+
+## 1. The Quadratic Model Equation
+
+For a 2nd-degree polynomial model, the core mathematical equation is[cite: 1]:
+
+$$f(x) = a * x^2 + b * x + c$$
+
+Fitting the model to the Tashkent ambulance call dataset using `np.polyfit(x, y, 2)` generates the following parameters[cite: 1]:
+
+* **a = -32.22**
+* **b = 2664.49**
+* **c = 180250.71**
+
+### Final Prediction Formula:
+$$f(x) = -32.22x^2 + 2664.49x + 180250.71$$
+
+---
+
+## 2. Coefficient Breakdown
+
+* **Intercept (c = 180,250.71):**  
+  Represents the baseline expected monthly call volume at the start of the time series ($x = 0$).
+
+* **Linear Slope (b = +2,664.49):**  
+  Measures the initial positive rate of growth in ambulance calls per month.
+
+* **Quadratic Curvature (a = -32.22):**  
+  Because $a$ is negative, the trend line curves downward (forming an inverted parabola), showing that call volume growth slows down over time and reaches a plateau.
+
+---
+
+## 3. Why Polynomial Regression Outperforms Linear Regression
+
+* **Limitations of Linear Regression ($f(x) = m * x + c$):**  
+  Assumes that call volumes constantly increase or decrease at a fixed rate forever, which is unrealistic for public health data.
+
+* **Advantage of Quadratic Fit:**  
+  Real-world emergency medical calls fluctuate due to seasonal shifts and system capacity limits. A 2nd-degree polynomial accurately captures non-linear acceleration and leveling-off behavior without overfitting the model[cite: 1].
